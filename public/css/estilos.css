@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(nav.css);
+@import url(reservas.css);
+@import url("fontello.css");
+@import url("fontello-ie7.css");
+
+*{
+    margin: 0;
+    top: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+section{        
+    min-height: 100vh;
+    position: relative;
+}
+/* INICIO */
+#inicio{
+        background-color: #000000;
+}
+
+.jumbotron { 
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+}
+
+.titulo-principal{
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 99;
+}
+
+.gmnoprint{
+   opacity: 0;
+}
+/* SALAS */
+#salas{
+    background-color: black;
+}
+
+#salas h2{
+    color: #ffffff;
+}
+
+#salas h4{
+    color: #ffffff;
+}
+
+#salas .thumbnail{
+    border: none;
+    background-color: black;
+    text-decoration: none;
+}
+
+#salas .thumbnail .caption{
+    color: #ffffff; 
+}
