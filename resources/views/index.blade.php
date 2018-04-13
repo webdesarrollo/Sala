@@ -9,8 +9,8 @@
     <title>Salas | Bolivar</title>
     <link rel="icon" href="/img/rock-and-roll.png"/>
     <!-- Bootstrap -->
-    <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" >
-    <link href="{{ URL::asset('css/estilos.css') }}" rel="stylesheet" type="text/css" >
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" >
+    <link href="{{ asset('css/estilos.css') }}" rel="stylesheet" type="text/css" >
 </head>
     
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="60">
