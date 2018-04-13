@@ -20,9 +20,9 @@
     @include('principal.salas')
     @include('principal.contacto')
     @include('principal.footer')
-
-    {!!Html::script('js/jquery.min.js')!!}
-    {!!Html::script('js/bootstrap.min.js')!!}
-    {!!Html::script('js/main.js')!!}
+    
+    <script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
