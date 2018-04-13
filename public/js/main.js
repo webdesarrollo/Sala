@@ -21,4 +21,11 @@ $(document).ready(function(){
     } // End if
   });
 
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
+    $(document).ready(function(){
+        $('[data-toggle="tooltip-nav"]').tooltip();   
+    });
+    
 });

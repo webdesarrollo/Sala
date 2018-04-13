@@ -17,25 +17,24 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf_BoHLUXV5yyQ_e52rsVoyTETuJH2dsA&callback=myMap"></script>
     </div>
     <div class="col-sm-6">
-      <div class="row">
              <p>Domingos cerrado, en caso de anular tu reserva hacerlo con 24 hs de anticipación</p>
               <p><span class="icon-location"></span> Av. Rivadavia 13778 - Ramos Mejía</p>
               <p><span class="icon-mobile"></span> +00 1515151515</p>
               <p><span class="icon-mail-alt"></span> myemail@something.com</p> 
               <hr>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Enviar</button>
-        </div>
-      </div> 
+              
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+            <div class="col-sm-12 form-group">
+                <textarea class="" id="comments" name="comments" placeholder="Comentario" rows="6" style="width:100%"></textarea><br>
+            </div>
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">Enviar</button>
+            </div>
     </div>
   </div>
 </div>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url(nav.css);
 @import url(reservas.css);
+@import url(salas.css);
 @import url("fontello.css");
 @import url("fontello-ie7.css");
 
@@ -44,25 +45,16 @@ section{
 .gmnoprint{
    opacity: 0;
 }
-/* SALAS */
-#salas{
+
+/* FOOTER */
+footer{
     background-color: black;
+    color: white;
+    font-style: italic;
+    margin-top: 2%;
+    padding: 10px;
 }
 
-#salas h2{
-    color: #ffffff;
-}
-
-#salas h4{
-    color: #ffffff;
-}
-
-#salas .thumbnail{
-    border: none;
-    background-color: black;
-    text-decoration: none;
-}
-
-#salas .thumbnail .caption{
-    color: #ffffff; 
+footer span{
+    color: white;
 }

@@ -1,0 +1,33 @@
+#salas{
+    background-color: black;
+}
+
+#salas h2{
+    color: #ffffff;
+}
+
+#salas h4{
+    color: #ffffff;
+}
+
+#salas .thumbnail{
+    border: none;
+    background-color: black;
+    text-decoration: none;
+}
+
+#salas .thumbnail{
+    color: #ffffff; 
+}
+
+#salas .thumbnail .caption{
+    color: #ffffff; 
+}
+
+#salas .thumbnail:hover{
+    border: solid 1px #66ccff;
+}
+
+.img-salas{
+    width: 100%;
+}
