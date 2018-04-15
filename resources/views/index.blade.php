@@ -9,7 +9,6 @@
     <title>Salas | Bolivar</title>
     <link rel="icon" href="/img/rock-and-roll.png"/>
     <!-- Bootstrap -->
-    <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
     <link href="/css/estilos.css" rel="stylesheet" type="text/css" >
     <script type="text/javascript" type="/js/scrollreveal.min.js"></script>
