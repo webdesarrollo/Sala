@@ -12,7 +12,7 @@
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
     <link href="/css/estilos.css" rel="stylesheet" type="text/css" >
-    <script type="/js/scrollreveal.min.js"></script>
+    <script type="text/javascript" type="/js/scrollreveal.min.js"></script>
 </head>
     
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="60">
