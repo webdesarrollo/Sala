@@ -31,3 +31,10 @@
 .img-salas{
     width: 100%;
 }
+/*
+@media screen and (min-width: 480px) {
+   .img-salas{
+        width: 100%;
+    }
+}
+*/

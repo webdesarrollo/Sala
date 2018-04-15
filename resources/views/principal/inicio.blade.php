@@ -2,7 +2,7 @@
     <div class="wrapper">
     <div class="jumbotron text-center">
         <h1 class="titulo-principal">Salas Bolivar</h1> 
-        <p>salas de ensayos profesional</p> 
+        <p class="sub-titulo">salas de ensayos profesional</p> 
     </div>
     </div>
 </section>    

@@ -9,20 +9,19 @@
     <title>Salas | Bolivar</title>
     <link rel="icon" href="/img/rock-and-roll.png"/>
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
-    <link href="/css/estilos.css" rel="stylesheet" type="text/css" >
+    {!!Html::style('css/bootstrap.min.css')!!}
+    {!!Html::style('css/estilos.css')!!}
+    {!!Html::script('js/scrollreveal.min.js')!!}
 </head>
     
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="60">
-    @include('principal.nav')
-    @include('principal.inicio')
-    @include('principal.reservas')
-    @include('principal.salas')
-    @include('principal.contacto')
-    @include('principal.footer')
     
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+    @yield('contenido')
+    @include('principal.footer')
+
+    {!!Html::script('js/jquery.min.js')!!}
+    {!!Html::script('js/bootstrap.min.js')!!}
+    {!!Html::script('js/main.js')!!}
+    {!!Html::script('js/scroll.js')!!}
 </body>
 </html>

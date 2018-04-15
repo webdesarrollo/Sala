@@ -58,3 +58,13 @@ footer{
 footer span{
     color: white;
 }
+
+footer span:hover{
+    color: #66ccff;
+}
+
+@media screen and (min-width: 480px) {
+   .solo-xs{
+        display: none;
+    }
+}
