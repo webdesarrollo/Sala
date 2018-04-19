@@ -24,20 +24,23 @@
                 <p><span class="icon-mobile"></span> 4658-4659 / 15-2667-44253</p>
                 <p><span class="icon-mail-alt"></span> myemail@something.com</p>
             </div>   
-              <hr>
-              
+            <hr>
+            @include('alertas.mensaje')    
+            {!!Form::open(['route'=>'contacto.store','method'=>'POST'])!!}
             <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+              {!!Form::text('nombre',null,['placeholder'=>'Nombre','class'=>'form-control','required'])!!}
             </div>
             <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                {!!Form::email('email',null,['placeholder'=>'Email','class'=>'form-control','required'])!!}
             </div>
             <div class="col-sm-12 form-group">
-                <textarea class="" id="comments" name="comments" placeholder="Comentario" rows="6" style="width:100%"></textarea><br>
+                {!!Form::textarea('mensaje',null,['placeholder'=>'Comentario','rows'=>'6','style'=>'width:100%'])!!}
+                <br>
             </div>
             <div class="col-sm-12 form-group">
-              <button class="btn btn-default pull-right" type="submit">Enviar</button>
+              {!!Form::submit('Enviar',['class'=>'btn btn-default pull-right','data-toggle'=>'modal','data-target'=>'#myModal'])!!}
             </div>
+            {!!Form::close()!!}
     </div>
   </div>
 </div>

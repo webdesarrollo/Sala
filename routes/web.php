@@ -5,3 +5,5 @@ Route::get('/', function () {
 });
 
 Route::get('/salas/{valor}', 'FrontController@index');
+
+Route::resource('contacto', 'ContactoController');

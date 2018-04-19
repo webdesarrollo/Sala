@@ -1,0 +1,61 @@
+/*ESPECIFICACIONES*/
+.fondo-gris{
+    margin-top: 2%;
+    background-color: #f6f6f6;
+    padding:20px;
+}
+.especificaciones img{
+    color:black;
+    height:50px;
+}
+/*SLIDE*/
+.media-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top: 30px;
+}
+
+/* Previous button  */
+.carousel-control.left 
+{
+    left: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width : 40px;
+    position: absolute;
+    margin: auto; 
+}
+
+/* Next button  */
+.carousel-control.right 
+{
+    right: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width : 40px;
+    position: absolute;
+    margin: auto; 
+}
+
+.item .thumbnail img{
+    cursor: pointer;
+}
+
+.telefonos{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.salas-fx{
+    border: none;
+}
+
+.salas-fx:hover{
+    border: solid 1px #66ccff;
+}

@@ -32,5 +32,14 @@ sr.reveal('.info-derecha',{
 sr.reveal('.btn',{
     duration:2000,
     origin:'bottom',
-    delay:'800'
+    delay:'700'
+});
+sr.reveal('.salas-fx',{
+    duration:2000,
+    origin:'bottom',
+});
+sr.reveal('.text-especificaciones',{
+    duration:1500,
+    origin:'bottom',
+    distance:'200px'
 });

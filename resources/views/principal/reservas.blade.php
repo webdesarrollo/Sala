@@ -28,6 +28,7 @@
                 <p>Invertimos permanentemente en equipamiento, todas nuestras salas están climatizadas. Porque consideramos que DEBES sonar bien. Estamos ubicados en pleno centro de Ramos Mejía, desde nuestros inicios en la Calle Bolívar.</p>
                 <p>Nos hemos ganado el cariño de nuestros clientes y el respeto de nuestros competidores. Nuestro valor hora es muy accesible comforme al equipamiento que te ofrecemos.</p>
                 <p class="text-center" >La sala mejor equipada del Oeste...LEJOS!</p>
+                <p class="text-center"><span class="icon-location"></span>Av Rivadavia 13778</p>
             </div>
 
         </div>

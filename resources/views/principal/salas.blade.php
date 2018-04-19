@@ -4,9 +4,9 @@
       <h4>las mejores equipadas</h4><br>
         <div class="row text-left">
         <div class="col-sm-6 col-lg-3">
-            <a href="{!!URL::to('/salas/sala-1')!!}" class="thumbnail">
-                <img src="img/sala1.jpg" alt="Sala 1" class="img-responsive img-salas">
-                <p class="caption"><strong>SALA 1</strong></p>
+            <a href="{!!URL::to('/salas/sala-A')!!}" class="thumbnail">
+                <img src="{{asset('img/sala1.jpg')}}" alt="Sala A" class="img-responsive img-salas">
+                <p class="caption"><strong>SALA A</strong></p>
                 <p class="texto-salas">5 mts x 4 mts (Mínimo 2 horas)</p>
                 <div class="hidden-xs hidden-sm hidden-md texto-salas">
                     <p><b>Guitarra</b>: cabezal Marshall vs100, Marshall jcm900 1960a y 1960a Vintage</p>
@@ -16,9 +16,9 @@
             </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
-            <a href="{!!URL::to('/salas/sala-2')!!}" class="thumbnail">
-                <img src="img/sala2.jpg" alt="Sala 2">
-                <p class="caption"><strong>SALA 2</strong></p>
+            <a href="{!!URL::to('/salas/sala-B')!!}" class="thumbnail">
+                <img src="{{asset('img/sala2.jpg')}}" alt="Sala B">
+                <p class="caption"><strong>SALA B</strong></p>
                 <p class="texto-salas">4 mts x 4 mts (Mínimo 2 horas)</p>
                 <div class="hidden-xs hidden-sm hidden-md texto-salas">
                     <p><b>Guitarra</b>: cabezales Marshall valvestated mod 8100, Marshall 8412 y 1960 jcm900 inglesas</p>
@@ -28,9 +28,9 @@
             </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
-            <a href="{!!URL::to('/salas/sala-3')!!}" class="thumbnail">
-                <img src="img/sala3.jpg" alt="Sala 3">
-                <p class="caption"><strong>SALA 3</strong></p>
+            <a href="{!!URL::to('/salas/sala-C')!!}" class="thumbnail">
+                <img src="{{asset('img/sala3.jpg')}}" alt="Sala C">
+                <p class="caption"><strong>SALA C</strong></p>
                 <p class="texto-salas">3,70 mts x 3,50 mts (Mínimo 2 horas)</p>
                 <div class="hidden-xs hidden-sm hidden-md texto-salas">
                     <p><b>Guitarra</b>: cabezales: Marshall valvestate mod 8100 , Marshall 8412</p>
@@ -40,9 +40,9 @@
             </a>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
-            <a href="{!!URL::to('/salas/sala-4')!!}" class="thumbnail">
-                <img src="img/sala4.jpg" alt="Sala 4">
-                <p class="caption"><strong>SALA 4</strong></p>
+            <a href="{!!URL::to('/salas/sala-D')!!}" class="thumbnail">
+                <img src="{{asset('img/sala4.jpg')}}" alt="Sala D">
+                <p class="caption"><strong>SALA D</strong></p>
                 <p class="texto-salas">3,50 mts x 3,50 mts (Mínimo 2 horas)</p>
                 <div class="hidden-xs hidden-sm hidden-md texto-salas">
                     <p><b>Guitarra</b>: cabezales Marshall valvestate mod 8100, Marshall mod 8412s</p>
