@@ -53,6 +53,15 @@
                 <hr>
                 <div class="row">
                     <div class="col-xs-2 col-lg-2">
+                        <img src="{{asset('img/size.svg')}}" alt="size"  title="dimensiones" data-toggle="tooltip-nav">
+                    </div>
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
+                        <p>3,50 m x 3,50 m (Mínimo 2 horas)</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/rec.svg')}}" alt="rec"  title="grabación" data-toggle="tooltip-nav">
                     </div>
                     <div class="col-xs-8 col-lg-8 col-xs-2 col-lg-8  text-especificaciones">
