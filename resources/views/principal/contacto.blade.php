@@ -16,9 +16,9 @@
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf_BoHLUXV5yyQ_e52rsVoyTETuJH2dsA&callback=myMap"></script>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6" id="contactoForm">
             <div class="info-derecha">
-               <br class="solo-xs">
+                <br class="solo-xs">
                 <p>Domingos cerrado, en caso de anular tu reserva hacerlo con 24 hs de anticipación</p>
                 <p><span class="icon-location"></span> Av. Rivadavia 13778 - Ramos Mejía</p>
                 <p><span class="icon-mobile"></span> 4658-4659 / 15-2667-44253</p>
