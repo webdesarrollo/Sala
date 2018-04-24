@@ -83,19 +83,19 @@
             <div class="col-md-8 col-md-offset-2">
                 <br>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <h4>SALA B</h4>
                         <a href="{!!URL::to('/salas/sala-B')!!}" class="thumbnail salas-fx">
                             <img src="{{asset('img/sala2.jpg')}}" alt="sala1">
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <h4>SALA C</h4>
                         <a href="{!!URL::to('/salas/sala-C')!!}" class="thumbnail salas-fx">
                             <img src="{{asset('img/sala3.jpg')}}" alt="sala2">
                         </a>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <h4>SALA D</h4>
                         <a href="{!!URL::to('/salas/sala-D')!!}" class="thumbnail salas-fx">
                             <img src="{{asset('img/sala3.jpg')}}" alt="sala3">
