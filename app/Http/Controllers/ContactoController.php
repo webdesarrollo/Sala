@@ -17,6 +17,6 @@ class ContactoController extends Controller
         });
         
         Session::flash('message','Mensaje enviado correctamente');
-        return Redirect::to('/#contacto');
+        return Redirect::to('/#contactoForm');
     }
 }
