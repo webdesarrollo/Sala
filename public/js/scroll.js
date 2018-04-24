@@ -32,7 +32,7 @@ sr.reveal('.info-derecha',{
 sr.reveal('.btn',{
     duration:2000,
     origin:'bottom',
-    delay:'700'
+    delay:'600'
 });
 sr.reveal('.salas-fx',{
     duration:2000,

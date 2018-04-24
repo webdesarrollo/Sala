@@ -59,3 +59,10 @@
 .salas-fx:hover{
     border: solid 1px #66ccff;
 }
+
+
+@media screen and (min-width: 992px) {
+  .carousel .col-xs-offset-2 {
+        margin-left: auto;
+    }
+}

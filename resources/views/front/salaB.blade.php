@@ -10,7 +10,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/gtr.svg')}}" alt="gtr"  title="equipos guitarra" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Cabezales Marshall valvestated mod 8100 ingleses, cajas de viola Marshall 8412 y 1960 jcm900 inglesas</p>
                     </div>
                 </div>
@@ -19,25 +19,25 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/bass.svg')}}" alt="bass"  title="equipo bajo" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Marshall 8400 Dynamic bass system ingles, caja de bajo Marshall 2x15” Dynamic bass system</p>
                     </div>
                 </div>    
                 <hr>
                 <div class="row">
-                    <div class="col-xs-2 col-lg-2">
+                    <div class="col-xs-8 col-xs-2 col-lg-2">
                         <img src="{{asset('img/control.svg')}}" alt="control"  title="consola" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Peavey XR 600 C USA</p>
                     </div>
                 </div>
                 <hr>
                 <div class="row">
-                    <div class="col-xs-2 col-lg-2">
+                    <div class="col-xs-8 col-xs-2 col-lg-2">
                         <img src="{{asset('img/mic.svg')}}" alt="voz"  title="voz" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Samson resound + drivers titanio 300w, 3 Shure SM 58 usa</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/drum.svg')}}" alt="drum"  title="bateria" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Pearl Export Series EX 5 cuerpos medidas 22”,16”,13”,12”. Tambor 14” madera</p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/rec.svg')}}" alt="rec"  title="grabación" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Samson CO1</p>
                     </div>
                 </div>

@@ -17,7 +17,7 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
             <a href="{!!URL::to('/salas/sala-B')!!}" class="thumbnail">
-                <img src="{{asset('img/sala2.jpg')}}" alt="Sala B">
+                <img src="{{asset('img/sala2.jpg')}}" alt="Sala B" class="img-responsive img-salas">
                 <p class="caption"><strong>SALA B</strong></p>
                 <p class="texto-salas">4 mts x 4 mts (Mínimo 2 horas)</p>
                 <div class="hidden-xs hidden-sm hidden-md texto-salas">
@@ -29,7 +29,7 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
             <a href="{!!URL::to('/salas/sala-C')!!}" class="thumbnail">
-                <img src="{{asset('img/sala3.jpg')}}" alt="Sala C">
+                <img src="{{asset('img/sala3.jpg')}}" alt="Sala C" class="img-responsive img-salas">
                 <p class="caption"><strong>SALA C</strong></p>
                 <p class="texto-salas">3,70 mts x 3,50 mts (Mínimo 2 horas)</p>
                 <div class="hidden-xs hidden-sm hidden-md texto-salas">
@@ -41,7 +41,7 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
             <a href="{!!URL::to('/salas/sala-D')!!}" class="thumbnail">
-                <img src="{{asset('img/sala4.jpg')}}" alt="Sala D">
+                <img src="{{asset('img/sala4.jpg')}}" alt="Sala D" class="img-responsive img-salas">
                 <p class="caption"><strong>SALA D</strong></p>
                 <p class="texto-salas">3,50 mts x 3,50 mts (Mínimo 2 horas)</p>
                 <div class="hidden-xs hidden-sm hidden-md texto-salas">

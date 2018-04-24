@@ -10,7 +10,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/gtr.svg')}}" alt="gtr"  title="equipos guitarra" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Cabezales Marshall vs100 inglés, Cajas Marshall jcm900 1960a y 1960a Vintage inglesas</p>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/bass.svg')}}" alt="bass"  title="equipo bajo" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Cabezal Marshall 3530 inglés, Caja de bajo Marshall 1X15” y 4X10” inglesa</p>
                     </div>
                 </div>    
@@ -28,7 +28,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/control.svg')}}" alt="control"  title="consola" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Peavey XR680 C USA</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/mic.svg')}}" alt="voz"  title="voz" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Marshall S115H inglesa + drivers motorola, 3 Shure SM58, 3 Shure Lyrics</p>
                     </div>
                 </div>
@@ -46,16 +46,16 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/drum.svg')}}" alt="drum"  title="bateria" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Pearl Export ProSeries 6 cuerpos año 96 medidas: 22”,16”,14”,12”,10”. Tambor 14”</p>
                     </div>
                 </div>
                 <hr>
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/rec.svg')}}" alt="rec"  title="grabación" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Samson CO3</p>
                     </div>
                 </div>

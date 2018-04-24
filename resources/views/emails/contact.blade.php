@@ -15,7 +15,7 @@
 <body>
     <div class="contenedor">
       <div class="tarjeta">
-            <h2 class="titulo"><a href="#">Salas Bolivar</a></h2>
+            <h2 class="titulo"><a href="http://app-sala.herokuapp.com/">Salas Bolivar</a></h2>
             <hr>
             <p><b>Consulta de cliente:</b></p>
             <P><strong>Nombre: </strong>{!!$nombre!!}</P>

@@ -10,5 +10,17 @@ ul.nav-pills {
     border: 2px solid #66ccff;
     border-radius: 50%;
     height: 15px;
-    width: 15px
+    width: 15px;
+    margin-bottom: 4px;
+}
+
+@media screen and (min-width: 480px) {
+    .nav>li>a{
+        padding: 0;
+        border: 2px solid #66ccff;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        margin-bottom: auto;
+    }
 }

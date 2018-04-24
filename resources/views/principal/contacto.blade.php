@@ -25,7 +25,7 @@
                 <p><span class="icon-mail-alt"></span> myemail@something.com</p>
             </div>   
             <hr>
-            @include('alertas.mensaje')    
+            @include('alertas.mensaje')  
             {!!Form::open(['route'=>'contacto.store','method'=>'POST'])!!}
             <div class="col-sm-6 form-group">
               {!!Form::text('nombre',null,['placeholder'=>'Nombre','class'=>'form-control','required'])!!}
@@ -34,7 +34,7 @@
                 {!!Form::email('email',null,['placeholder'=>'Email','class'=>'form-control','required'])!!}
             </div>
             <div class="col-sm-12 form-group">
-                {!!Form::textarea('mensaje',null,['placeholder'=>'Comentario','rows'=>'6','style'=>'width:100%'])!!}
+                {!!Form::textarea('mensaje',null,['placeholder'=>'Comentario','rows'=>'6','style'=>'width:100%','required'])!!}
                 <br>
             </div>
             <div class="col-sm-12 form-group">

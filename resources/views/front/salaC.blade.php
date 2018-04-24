@@ -7,10 +7,10 @@
             <h2 class="text-center">ESPECIFICACIONES</h2>
             <div class="col-lg-6 col-lg-offset-3 fondo-gris">
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/gtr.svg')}}" alt="gtr"  title="equipos guitarra" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Cabezales: Marshall valvestate mod 8100 ingles, cajas de viola Marshall 8412 inglesa</p>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/bass.svg')}}" alt="bass"  title="equipo bajo" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Cabezal Peavey mark III bass xp series usa, caja de bajo Electro Voice 2x15” USA</p>
                     </div>
                 </div>    
@@ -28,7 +28,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/control.svg')}}" alt="control"  title="consola" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Peavey XR 600 E USA</p>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/mic.svg')}}" alt="voz"  title="voz" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Peavey 1x15” + drivers rango extendido, 3 Shure PG 48</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/drum.svg')}}" alt="drum"  title="bateria" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8  text-especificaciones">
+                    <div class="col-xs-8 col-lg-8  text-especificaciones">
                         <p>Pearl Export Series año 92 tilo 6 cuerpos medidas: 22”,18”,16”,13”,12”. Tambor 14”</p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                     <div class="col-xs-2 col-lg-2">
                         <img src="{{asset('img/rec.svg')}}" alt="rec"  title="grabación" data-toggle="tooltip-nav">
                     </div>
-                    <div class="col-lg-8 text-especificaciones">
+                    <div class="col-xs-8 col-lg-8 text-especificaciones">
                         <p>Samson CO1</p>
                     </div>
                 </div>
