@@ -1,14 +1,17 @@
 /*ESPECIFICACIONES*/
-.fondo-gris{
+
+.fondo-gris {
     margin-top: 2%;
     background-color: #f6f6f6;
-    padding:20px;
+    padding: 20px;
 }
-.especificaciones img{
-    color:black;
-    height:50px;
+.especificaciones img {
+    color: black;
+    height: 50px;
 }
+
 /*SLIDE*/
+
 .media-carousel {
     margin-bottom: 0;
     padding: 0 40px 30px 40px;
@@ -16,53 +19,47 @@
 }
 
 /* Previous button  */
-.carousel-control.left 
-{
+
+.carousel-control.left {
     left: -12px;
     background-image: none;
     background: none repeat scroll 0 0 #222222;
     border: 4px solid #FFFFFF;
     border-radius: 23px 23px 23px 23px;
     height: 40px;
-    width : 40px;
+    width: 40px;
     position: absolute;
-    margin: auto; 
+    margin: auto;
 }
 
 /* Next button  */
-.carousel-control.right 
-{
+
+.carousel-control.right {
     right: -12px;
     background-image: none;
     background: none repeat scroll 0 0 #222222;
     border: 4px solid #FFFFFF;
     border-radius: 23px 23px 23px 23px;
     height: 40px;
-    width : 40px;
+    width: 40px;
     position: absolute;
-    margin: auto; 
+    margin: auto;
 }
-
-.item .thumbnail img{
+.item .thumbnail img {
     cursor: pointer;
 }
-
-.telefonos{
+.telefonos {
     font-family: sans-serif;
     text-align: center;
 }
-
-.salas-fx{
+.salas-fx {
     border: none;
 }
-
-.salas-fx:hover{
+.salas-fx:hover {
     border: solid 1px #66ccff;
 }
-
-
 @media screen and (min-width: 992px) {
-  .carousel .col-xs-offset-2 {
+    .carousel .col-xs-offset-2 {
         margin-left: auto;
     }
 }

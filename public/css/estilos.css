@@ -5,23 +5,22 @@
 @import url(detalles.css);
 @import url("fontello.css");
 @import url("fontello-ie7.css");
-
-*{
+* {
     margin: 0;
     top: 0;
     font-family: 'Raleway', sans-serif;
 }
-
-section{        
+section {
     min-height: 100vh;
     position: relative;
 }
-/* INICIO */
-#inicio{
-        background-color: #000000;
-}
 
-.jumbotron { 
+/* INICIO */
+
+#inicio {
+    background-color: #000000;
+}
+.jumbotron {
     background-color: #000000;
     color: #ffffff;
     z-index: 9;
@@ -29,43 +28,37 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
-
 .wrapper {
     position: relative;
     height: 100vh;
 }
-
-.titulo-principal{
+.titulo-principal {
     font-weight: bold;
     text-transform: uppercase;
     z-index: 99;
 }
-
-.gmnoprint{
-   opacity: 0;
+.gmnoprint {
+    opacity: 0;
 }
 
 /* FOOTER */
-footer{
+
+footer {
     background-color: black;
     color: white;
     font-style: italic;
     margin-top: 2%;
     padding: 10px;
 }
-
-footer span{
+footer span {
     color: white;
 }
-
-footer span:hover{
+footer span:hover {
     color: #66ccff;
 }
-
 @media screen and (min-width: 480px) {
-   .solo-xs{
+    .solo-xs {
         display: none;
     }
 }

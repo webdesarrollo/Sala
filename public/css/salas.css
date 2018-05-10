@@ -1,36 +1,30 @@
-#salas{
+#salas {
     background-color: black;
 }
-
-#salas h2{
+#salas h2 {
     color: #ffffff;
 }
-
-#salas h4{
+#salas h4 {
     color: #ffffff;
 }
-
-#salas .thumbnail{
+#salas .thumbnail {
     border: none;
     background-color: black;
     text-decoration: none;
 }
-
-#salas .thumbnail{
-    color: #ffffff; 
+#salas .thumbnail {
+    color: #ffffff;
 }
-
-#salas .thumbnail .caption{
-    color: #ffffff; 
+#salas .thumbnail .caption {
+    color: #ffffff;
 }
-
-#salas .thumbnail:hover{
+#salas .thumbnail:hover {
     border: solid 1px #66ccff;
 }
-
-.img-salas{
+.img-salas {
     width: 100%;
 }
+
 /*
 @media screen and (min-width: 480px) {
    .img-salas{
